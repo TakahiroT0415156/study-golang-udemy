@@ -7,13 +7,13 @@ import "fmt"
 
 var i5 int = 500
 
-func outer()  {
+func outer() {
 	var s4 string = "outer"
 	fmt.Println(s4)
 }
 
 // 変数定義
-func main()  {
+func main() {
 	// 明示的な定義
 	// var 変数名 型 = 値
 
@@ -27,14 +27,14 @@ func main()  {
 
 	// 真偽値の定義
 	var t, f bool = true, false
-	fmt.Println(t,f)
+	fmt.Println(t, f)
 
 	// まとめて定義することができる
 	var (
-		i2 int = 200
+		i2 int    = 200
 		s2 string = "Golang"
 	)
-	fmt.Println(i2,s2)
+	fmt.Println(i2, s2)
 
 	// 変数だけを型定義する
 	// 型の初期値が入るようになる
